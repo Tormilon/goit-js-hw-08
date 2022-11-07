@@ -17,12 +17,14 @@ function createGalleryMarkup(items) {
     .join('');
 }
 
+
 const lightbox = new SimpleLightbox('.gallery a', {
   captions: true,
   captionsData: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
 });
+
 
 lightbox.on('show.simplelightbox', function () {
   console.log('WOW');
