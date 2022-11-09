@@ -8,7 +8,7 @@ const currentStorageValue = localStorage.getItem(STORAGE_KEY);
 
 
 if (currentStorageValue) {
-  video.setCurrentTime(localStorage.getItem(STORAGE_KEY));
+  video.setCurrentTime(currentStorageValue);
 }
 
 
